@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f9dc9919019eed125bd05fdfb7fd5a1b",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "cesaredifoggiadev/melody",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cesaredifoggiadev/melody.git",
+                "reference": "e8e56a17310083fadc8a8e992b5547879f5b9324"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cesaredifoggiadev/melody/zipball/e8e56a17310083fadc8a8e992b5547879f5b9324",
+                "reference": "e8e56a17310083fadc8a8e992b5547879f5b9324",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Melody\\": "src/"
+                },
+                "files": [
+                    "src/Helpers/helpers.php"
+                ]
+            },
+            "description": "The MVC pattern implemented to create a simple and small framework, thanks to this framework you can create a light and dynamic site site.",
+            "support": {
+                "source": "https://github.com/cesaredifoggiadev/melody/tree/main",
+                "issues": "https://github.com/cesaredifoggiadev/melody/issues"
+            },
+            "time": "2022-01-18T09:47:38+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "cesaredifoggiadev/melody": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
